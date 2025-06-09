@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "cmp614-empty-project",
+  "version": "1.0.0",
+  "description": "Empty Project for JS labs in CMP614",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Youssef Ghatas",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
