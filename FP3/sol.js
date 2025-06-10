@@ -72,9 +72,9 @@ const readFile = filename => {
     return new Task((rej, res) => {
         fs.readFile(filename, 'utf8', (err, data) => {
             if (err)
-                rej(new Left(`Error reading file: ${err.message}`))
+                rej(Left.of(`Error reading file: ${err.message}`))
             else
-                res(new Right(data))
+                res(Right.of(data))
         });
     });
 }
